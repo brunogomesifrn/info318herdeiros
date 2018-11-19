@@ -1,5 +1,5 @@
 .cor{
-	background: #2385AB;
+	background:black;
 	color: white;
 }
 a{
@@ -39,4 +39,7 @@ a{
 } .scroll {
 overflow-x: auto;
 
+} .cent {
+
+  text-align: center;
 }
