@@ -44,3 +44,21 @@ overflow-x: auto;
 
   text-align: center;
 }
+
+
+.imagem{
+background-image:url('../img/fundo_jumbotron.jpg');
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+
+.imagem2{
+  background-image:url('img/fundo_jumbotron.jpg');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
