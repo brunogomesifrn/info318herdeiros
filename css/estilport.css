@@ -1,4 +1,15 @@
 
+body{
+    background-image: url('../img/fundodejan.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+
+
 .cor{
 	background:black;
 	color: white;
@@ -16,6 +27,7 @@ a{
   border-radius: 10px;
 }
 
+
 .bl:hover {
   color: #fff;
   background-color: #A7C04D;
@@ -30,6 +42,7 @@ a{
   margin: 0 auto;
   width: 70%;
 }
+
 .texto{
   margin: 20px;
   text-align: center;
