@@ -46,19 +46,26 @@ overflow-x: auto;
 }
 
 
-.imagem{
-background-image:url('../img/fundo_jumbotron.jpg');
+/*.imagem{
+background-image:url('../img/zumbi2.jpg');
 background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
 background-position:center;
+}*/
+
+.jumbotron {
+  background-image:url('../img/zumbi.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border-bottom:1px solid #ff6a00;
+}
+.jumbotron .container {
+  position:relative;
+  top:50px;
+
 }
 
-.imagem2{
-  background-image:url('img/fundo_jumbotron.jpg');
-background-repeat:no-repeat;
-background-size:contain;
-background-position:center;
-}
