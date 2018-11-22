@@ -5,11 +5,8 @@ background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
+position: relative;
 }
-
-
-
-
 .cor{
 	background:black;
 	color: white;
@@ -59,16 +56,6 @@ overflow-x: auto;
 }
 
 
-/*.imagem{
-background-image:url('../img/zumbi2.jpg');
-background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-}*/
-
 .jumbotron {
   background-image:url('../img/zumbi.jpg');
   background-size: auto 100%;
@@ -80,4 +67,3 @@ background-position:center;
   position:relative;
   top:50px;
 
-}
